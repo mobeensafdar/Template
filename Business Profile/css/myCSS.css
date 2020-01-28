@@ -1,0 +1,140 @@
+html, body {
+  height: 100%;
+  font-family: "My-Font";
+  scroll-behavior: smooth;
+}
+
+@font-face{
+  font-family: "My-Font";
+  src: url(../fonts/myFont.ttf) format("truetype");
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h3 {
+  padding: 10px;
+}
+
+p {
+  font-size: 14px;
+}
+
+label {
+  color: #17606c;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+input, textarea {
+  border: 1.5px solid #bbb !important;
+  font-family: sans-serif;
+}
+
+#my-btn{
+  background-color: #17606c;
+  border: 2px solid #188a9c;
+}
+
+#ico{
+  padding-right: 4px;
+  padding-bottom: 4px;
+}
+
+#social {
+  background-color: #ffffff;
+  border: 2px solid #17606c;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.my-txt {
+  color: #17606c !important;
+  font-family: sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  padding-bottom: 15px
+}
+
+.header {
+  background-image: url(../img/BG_IMG.png);
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+.my-logo { margin-left: 5%; }
+
+.my-navbar {
+  background-image: url("../img/BG_IMG.png");
+  padding-top: 10px;
+  box-shadow:  0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  margin: auto;
+  padding-left: 10px;
+}
+
+.navbar-nav>.nav-item>.nav-link.active::after {
+  content: "";
+  border-bottom: 2px solid #fff;
+  display: block;
+}
+
+.content {
+  color: #555;
+  padding: 60px 0;
+}
+
+.color-bg {
+  background-color: #f6fbfb;
+}
+
+.title {
+  color: #17606c;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.tile-lg {
+  margin: 20px 0 20px 0;
+  padding: 10px 10px 1px 10px;
+}
+
+.abouts {
+  background-color: #fff;
+  border-left: 5px solid #17606c;
+}
+
+.service {
+  color: #ffffff;
+  text-align: center;
+  background-color: #779e9e;
+  border: 2px solid #17606c;
+}
+
+.my-img {
+  border: 5px solid #fff;
+  border-radius: 100%;
+  padding: 4px;
+  margin: 15px;
+}
+
+.footer {
+  background-image: url(../img/BG_IMG.png);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
